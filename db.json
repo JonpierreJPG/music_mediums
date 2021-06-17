@@ -20,7 +20,7 @@
     {
       "id": 1,
       "name": "Compact Cassette",
-      "restaurant": "1963",
+      "year": "1963",
       "web": "https://en.wikipedia.org/wiki/Cassette_tape",
       "description": "The Compact Cassette or Musicassette (MC), also commonly called the tape cassette,[2] cassette tape, audio cassette, or simply tape or cassette, is an analog magnetic tape recording format for audio recording and playback.",
       "addresses": [
@@ -37,7 +37,7 @@
     {
       "id": 2,
       "name": "8-Track Tape",
-      "restaurant": "1964",
+      "year": "1964",
       "web": "https://en.wikipedia.org/wiki/8-track_tape",
       "description": "The 8-track tape (formally Stereo 8; commonly called eight-track cartridge, eight-track tape, and eight-track) is a magnetic-tape sound recording technology that was popular[2] from the mid-1960s to the early 1980s, when the Compact Cassette tape, which predated 8-track, surpassed it in popularity for pre-recorded music.",
       "addresses": [

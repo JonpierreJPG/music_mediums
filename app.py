@@ -5,10 +5,14 @@ from flask import request
 from dotenv import load_dotenv, find_dotenv
 import random
 
-    
-BASE_URL = 'https://my-music-medium-api.herokuapp.com/mediums/0'# Create catch error for nothing found
+rand_item = random.randint(0, 6)
+# item_id = 2    
+BASE_URL = 'https://my-music-medium-api.herokuapp.com/mediums/{}'.format(rand_item)
 # print(BASE_URL)
 response = requests.get(BASE_URL)
 data = response.json()
-print(data)
-
+medium = data['name']
+link = data['web']
+# print(data)
+print(medium)
+print(link)
